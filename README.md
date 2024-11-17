@@ -1,9 +1,9 @@
-# Ex No: 05 Design-Implementation-of-1-Bit-Full-Adder-using-Cadence-Tools
+# Ex No: 04 Design-Implementation-of-6T--SRAM-Cell-using-Cadence-EDA-Tools
      
 
 ## Aim:
 
-To design and implement a 1-bit full adder circuit using Cadence EDA tools and to understand its behavior in digital arithmetic operations.
+To design and implement a 6T SRAM (Static Random-Access Memory) cell using Cadence EDA tools, simulate its functionality, and analyze key performance parameters such as read/write operations, power consumption, and stability to understand its behavior in memory design.
 
 ## Tools Required:
 
@@ -11,11 +11,13 @@ To design and implement a 1-bit full adder circuit using Cadence EDA tools and t
 
 •	Cadence Virtuoso Software
 
+
 ## Circuit Diagram:
 
-![IMG-20241115-WA0006](https://github.com/user-attachments/assets/9b7907e2-47d3-4014-9317-998a850366b4)
+![IMG-20241115-WA0004](https://github.com/user-attachments/assets/86635ce5-4ffc-484d-aa49-7a2d5ad428bf)
 
-## Schematic Simulation:
+
+## Schematic Simulation: 
 
 PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION -Commands to get into Cadence
 
@@ -56,8 +58,9 @@ ii)	Create Schematic Cell view.
 	Create Input and Output pins
 	Make the connections by using fixed narrow wire key
 	Click Check and Save button
+![Screenshot 2024-11-16 111726](https://github.com/user-attachments/assets/0d94a1ed-e239-4c1e-b95c-01a50319ec86)
 
-![IMG-20241112-WA0014](https://github.com/user-attachments/assets/d98e25b3-b7a9-4c76-808f-e3d8e25c4410)
+
 
 
 
@@ -76,25 +79,7 @@ iii)	Creating the Symbol for schematic Cell view
 •	Library Name and Cell Name must be same which you have used for schematic. Press OK
 •	Check for the position of pin side.Prss OK
 •	Edit for the shape by Create-Shape-Choose required options to edit.
-![IMG-20241112-WA0013](https://github.com/user-attachments/assets/9761214f-a5e9-4a46-a952-117e66cc187c)
 
-
-
-
-iv)	Creating the new test cell view
-
-•	Go to CIW window, Execute File-New-Cell view
-	Setup the new file form
-	Library: Select the one you created.
-	Cell: Cell name must be different from the name used in schematic cell view. Ex: Inverter_test
-	View: Schematic
-	Type: Schematic press OK
-•	Follow the step 3(ii) d to make the required connections
-
-![IMG-20241112-WA0009](https://github.com/user-attachments/assets/0c16a45a-f5e1-4fc8-aabe-3750bc57408d)
-
-
- 
 ## Analog simulation by SPECTRE.
 •	In test cell view window
 •	Launch – ADE L(Analog Design Environment)
@@ -105,22 +90,34 @@ iv)	Creating the new test cell view
 	Execute Output s—to be plotted – Select on Schematic
 	Then Select the INPUT WIRE(Vin ) and OUTPUT WIRE(Vout) from your test Schematic using mouse
 •	Execute Simulation -- Net list and Run
-
-![Screenshot 2024-11-14 153045](https://github.com/user-attachments/assets/6c26bcc7-f42d-4c9e-a494-193bd9d11ec1)
-
+![2nd](https://github.com/user-attachments/assets/a5f86bcf-2594-4610-8a98-370b880d155e)
 
 
-## For Transient Analysis Settings: 
- 
-![Screenshot 2024-11-14 153107](https://github.com/user-attachments/assets/4cece571-f64f-4538-952a-77dd7dae08a1)
-
- ## Output:
- 
-![Screenshot 2024-11-14 142733](https://github.com/user-attachments/assets/dd168097-963b-4685-8f52-8f770a3d20af)
 
 
- 
+
+## For Transient Analysis Settings and Output
+
+
+![3rd](https://github.com/user-attachments/assets/79e9ee02-094d-4609-8d3c-59100a1d639d)
+
+
+
+![4th](https://github.com/user-attachments/assets/085dcad5-6c79-42fd-83cf-096025b8fa08)
+
+
+
 
 ## Result:
 
-The design and implementation of the 1-bit full adder using Cadence EDA tools were successfully completed. The simulation results verified the correct operation of the full adder, with accurate sum and carry outputs for all input combinations.
+The design and implementation of the 6T SRAM cell using Cadence EDA tools were successfully achieved. Simulation results validated the correct functionality and performance of the SRAM cell, including stable read/write operations.
+
+
+
+
+
+
+
+
+
+
